@@ -41,10 +41,33 @@ DESeq2 (Next Stage)
 
 - Organism: Human (*Homo sapiens*)
 - Genome: GRCh38
+- GEO accession: GSE303802
+- Organism: Homo sapiens
+- Cell line: HeLa
+- Platform: Illumina NovaSeq 6000
+- Layout: Paired-end RNA-seq
+- Total number of Samples: 12
 - Annotation: GENCODE Release 49
 - Aligner: HISAT2
 - Quantification: featureCounts
 - QC: FastQC, MultiQC, samtools
+
+---
+## Experimental Design
+
+-CCCP at 6 hours (3 replicates)
+-DMSO at 6 hours (3 replicates)
+-CCCP at 12 hours (3 replicates)
+-DMSO at 12 hours (3 replicates)
+
+---
+
+## Software
+
+- HISAT2
+- samtools
+- featureCounts (Subread)
+- MultiQC
 
 ---
 
@@ -80,7 +103,7 @@ Output:
 - Alignment logs
 - Alignment statistics
 
-Quality checks performed:
+Alignment integrity was checked by:
 
 - samtools quickcheck
 - samtools flagstat
@@ -98,6 +121,14 @@ Included metrics:
 - samtools flagstat
 - featureCounts summary
 
+  Outputs:
+
+  ```
+  results/multiqc_alignment/
+    multiqc_report.html
+    multiqc_data/
+
+  ```
 ---
 
 ## Gene Quantification
@@ -114,55 +145,7 @@ Parameters:
 Outputs:
 
 ```
-metadata/
-    sample_metadata.csv
-
-script/
-    featurecounts.sh
-    multiqc_alignment.sh
-
-results/
-    alignment/
-        qc/
-            *.flagstat.txt
-        *.hisat2.log
-        *.stderr.log
-
-    multiqc_alignment/
-        multiqc_report.html
-        multiqc_data/
-
-    counts/
-        gene_counts.txt.summary
+results/counts/
+    gene_counts.txt
+    gene_counts.txt.summary
 ```
-
----
-
-## Software
-
-- HISAT2
-- samtools
-- featureCounts (Subread)
-- MultiQC
-
----
-
-## Current Status
-
-- ✅ Alignment complete
-- ✅ BAM QC complete
-- ✅ Gene quantification complete
-- ✅ MultiQC alignment report complete
-- ⏳ Differential expression analysis (DESeq2) in progress
-
----
-
-## Next Steps
-
-- Import count matrix into R
-- Differential expression analysis using DESeq2
-- PCA
-- MA plot
-- Volcano plot
-- Heatmap
-- Functional enrichment analysis
