@@ -1,0 +1,37 @@
+Module	Section	Sample Name	Source
+featureCounts	all_sections	SRR34737865	/home/ruchika/Desktop/cccp_rnaseq_project/results/counts/gene_counts.txt.summary
+featureCounts	all_sections	SRR34737866	/home/ruchika/Desktop/cccp_rnaseq_project/results/counts/gene_counts.txt.summary
+featureCounts	all_sections	SRR34737867	/home/ruchika/Desktop/cccp_rnaseq_project/results/counts/gene_counts.txt.summary
+featureCounts	all_sections	SRR34737868	/home/ruchika/Desktop/cccp_rnaseq_project/results/counts/gene_counts.txt.summary
+featureCounts	all_sections	SRR34737869	/home/ruchika/Desktop/cccp_rnaseq_project/results/counts/gene_counts.txt.summary
+featureCounts	all_sections	SRR34737870	/home/ruchika/Desktop/cccp_rnaseq_project/results/counts/gene_counts.txt.summary
+featureCounts	all_sections	SRR34737871	/home/ruchika/Desktop/cccp_rnaseq_project/results/counts/gene_counts.txt.summary
+featureCounts	all_sections	SRR34737872	/home/ruchika/Desktop/cccp_rnaseq_project/results/counts/gene_counts.txt.summary
+featureCounts	all_sections	SRR34737873	/home/ruchika/Desktop/cccp_rnaseq_project/results/counts/gene_counts.txt.summary
+featureCounts	all_sections	SRR34737874	/home/ruchika/Desktop/cccp_rnaseq_project/results/counts/gene_counts.txt.summary
+featureCounts	all_sections	SRR34737875	/home/ruchika/Desktop/cccp_rnaseq_project/results/counts/gene_counts.txt.summary
+featureCounts	all_sections	SRR34737876	/home/ruchika/Desktop/cccp_rnaseq_project/results/counts/gene_counts.txt.summary
+Samtools	flagstat	SRR34737870	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/qc/SRR34737870.flagstat.txt
+Samtools	flagstat	SRR34737869	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/qc/SRR34737869.flagstat.txt
+Samtools	flagstat	SRR34737867	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/qc/SRR34737867.flagstat.txt
+Samtools	flagstat	SRR34737866	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/qc/SRR34737866.flagstat.txt
+Samtools	flagstat	SRR34737875	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/qc/SRR34737875.flagstat.txt
+Samtools	flagstat	SRR34737872	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/qc/SRR34737872.flagstat.txt
+Samtools	flagstat	SRR34737868	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/qc/SRR34737868.flagstat.txt
+Samtools	flagstat	SRR34737874	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/qc/SRR34737874.flagstat.txt
+Samtools	flagstat	SRR34737865	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/qc/SRR34737865.flagstat.txt
+Samtools	flagstat	SRR34737871	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/qc/SRR34737871.flagstat.txt
+Samtools	flagstat	SRR34737873	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/qc/SRR34737873.flagstat.txt
+Samtools	flagstat	SRR34737876	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/qc/SRR34737876.flagstat.txt
+Bowtie 2 / HiSAT2	all_sections	SRR34737875	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/SRR34737875.hisat2.log
+Bowtie 2 / HiSAT2	all_sections	SRR34737872	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/SRR34737872.stderr.log
+Bowtie 2 / HiSAT2	all_sections	SRR34737874	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/SRR34737874.stderr.log
+Bowtie 2 / HiSAT2	all_sections	SRR34737868	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/SRR34737868.hisat2.log
+Bowtie 2 / HiSAT2	all_sections	SRR34737876	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/SRR34737876.hisat2.log
+Bowtie 2 / HiSAT2	all_sections	SRR34737869	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/SRR34737869.stderr.log
+Bowtie 2 / HiSAT2	all_sections	SRR34737867	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/SRR34737867.hisat2.log
+Bowtie 2 / HiSAT2	all_sections	SRR34737871	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/SRR34737871.hisat2.log
+Bowtie 2 / HiSAT2	all_sections	SRR34737870	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/SRR34737870.hisat2.log
+Bowtie 2 / HiSAT2	all_sections	SRR34737873	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/SRR34737873.stderr.log
+Bowtie 2 / HiSAT2	all_sections	SRR34737866	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/SRR34737866.hisat2.log
+Bowtie 2 / HiSAT2	all_sections	SRR34737865	/home/ruchika/Desktop/cccp_rnaseq_project/results/alignment/SRR34737865.stderr.log

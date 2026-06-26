@@ -1,0 +1,13 @@
+# Raw sequencing data
+data/
+
+# Reference genome
+reference/
+
+# Alignment files
+results/alignment/*.bam
+results/alignment/*.bai
+
+# Temporary files
+*.tmp
+*.swp
