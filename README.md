@@ -55,10 +55,10 @@ DESeq2 (Next Stage)
 ---
 ## Experimental Design
 
--CCCP at 6 hours (3 replicates)
--DMSO at 6 hours (3 replicates)
--CCCP at 12 hours (3 replicates)
--DMSO at 12 hours (3 replicates)
+- CCCP at 6 hours (3 replicates)
+- DMSO at 6 hours (3 replicates)
+- CCCP at 12 hours (3 replicates)
+- DMSO at 12 hours (3 replicates)
 
 ---
 
@@ -124,10 +124,9 @@ Included metrics:
   Outputs:
 
   ```
-  results/multiqc_alignment/
+    results/multiqc_alignment/
     multiqc_report.html
     multiqc_data/
-
   ```
 ---
 
