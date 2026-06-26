@@ -1,13 +1,16 @@
-# Raw sequencing data
-data/
-
 # Reference genome
-reference/
+reference/genome.fa
+reference/annotation.gtf
+reference/hisat2_index/
 
 # Alignment files
 results/alignment/*.bam
 results/alignment/*.bai
 
-# Temporary files
+# Temporary
 *.tmp
-*.swp
+*.log
+
+# Python
+__pycache__/
+*.pyc
